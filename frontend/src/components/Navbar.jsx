@@ -10,7 +10,7 @@ import profile from "../../public/profile-img.png"
 export default function Navbar() {
 
   return (
-    <div className="flex justify-between fixed t-0 w-[100%] bg-white px-6 py-2 ">
+    <div className="flex justify-between fixed t-0  w-[100%] bg-white px-6 py-2 ">
       <div className=" flex  items-center space-x-2 ">
         <MdMenu className="text-xl cursor-pointer mr-4" size={"25px"} />
         <img src={logo} alt="" className="w-[85px] cursor-pointer" />
@@ -18,7 +18,7 @@ export default function Navbar() {
       </div>
       <div className=" flex w-[50%] items-center ">
         <div className="w-[100%] px-4 py-2  border rounded-l-full">
-             <input type="text" placeholder="Search" className="outline-none w" />
+             <input type="text" placeholder="Search" className="outline-none " />
         </div>
        <button className="px-3 py-2 border bg-gray-100 rounded-r-full">
           <CiSearch size={"24px"}/>
